@@ -1,6 +1,6 @@
 {
   "name": "@blacktoolbox/prototype-validator",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A prototype for multiple validator",
   "keywords": [
     "blacktoolbox",
@@ -35,19 +35,19 @@
     "backup": "gulp backup"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.5.4",
-    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
-    "@babel/preset-env": "^7.5.4",
-    "eslint": "^6.0.1",
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-replace": "^2.3.0",
+    "eslint": "^6.8.0",
     "gulp": "^4.0.2",
-    "rollup": "^1.16.7",
+    "rollup": "^1.29.0",
     "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.0.1",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-replace": "^2.2.0",
-    "rollup-plugin-uglify": "^6.0.2"
+    "rollup-plugin-uglify": "^6.0.4"
   },
   "directories": {
     "lib": "lib"
