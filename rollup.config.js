@@ -9,10 +9,8 @@ const env = process.env.NODE_ENV;
 const config = {
   output: {
     format: "umd",
-    name: "btblab-validator"
-  },
-  globals: {
-    react: 'React'
+    name: "btblab-validator",
+    exports: "named"
   },
   external: [
     'react'
